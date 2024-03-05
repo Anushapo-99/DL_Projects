@@ -54,7 +54,7 @@ client = Client(account_sid, auth_token)
 
 #Mobile detetcion
 
-whT = 320             #width and height of frame(pixel)
+whT = 320             #width and height of frame
 confThreshold = 0.5   #confidence threshold
 nmsThreshold = 0.3    #Non_maximum_supression
 classNames = ["mobile"]
@@ -98,7 +98,7 @@ def findObjects(outputs, img):
 
 #Drowiness detection
 
-flag_drowsiness = 0
+flag_drowsiness. = 0
 flag_yawn = 0
 
 while True:
@@ -154,7 +154,7 @@ while True:
                     yawn_alert_sound.play()
 
         else:
-            flag_yawn = 0
+            flag_yawn. = 0
 
     blob = cv2.dnn.blobFromImage(frame, 1 / 255, (whT, whT), [0, 0, 0], swapRB=True, crop=False)
     net.setInput(blob)
