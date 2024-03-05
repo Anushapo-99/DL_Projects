@@ -10,7 +10,7 @@ In today's fast-paced world, drowsy driving and mobile phone distractions pose s
 
 Here's a glimpse of what my project entails:
 
-    Drowsiness Detection: Using OpenCV,Dlib we have developed an intelligent algorithm capable of accurately detecting signs of drowsiness in individuals. By analyzing facial cues and eye movements in real-time, our system can alert drivers when they are becoming drowsy, potentially preventing accidents caused by fatigue.
+Drowsiness Detection: Using OpenCV,Dlib we have developed an intelligent algorithm capable of accurately detecting signs of drowsiness in individuals. By analyzing facial cues and eye movements in real-time, our system can alert drivers when they are becoming drowsy, potentially preventing accidents caused by fatigue.
 
     Mobile Phone Detection: Leveraging the power of YOLO v3 (You Only Look Once), our system can swiftly identify instances of mobile phone usage while driving. By detecting handheld devices within the driver's vicinity, we aim to mitigate the dangers associated with distracted driving.
     Real-time Alerts: In the event of drowsiness or mobile usage detected, my system immediately sends an alert message to one of the driver's friends or relatives using Twilio. This proactive approach ensures that appropriate action can be taken to prevent accidents and ensure the safety of everyone on the road.                                                                  
